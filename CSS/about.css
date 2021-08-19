@@ -13,3 +13,9 @@ main{
 .card img{
     background-size: cover;
 }
+
+@media (Max-width:800px) {
+    .card{
+        width: 80vw;
+    }
+}
