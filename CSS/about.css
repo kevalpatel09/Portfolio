@@ -1,5 +1,5 @@
 body{
-    height: 100vh;
+    height: 80vh;
 }
 main{
     height: 100vh;
@@ -12,6 +12,22 @@ main{
 }
 .card img{
     background-size: cover;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card-text a{
+    margin-left: 20px;
+    color: gray;
+    padding: 3px;
+}
+
+.card-text a:hover{
+ /* background-color: rgb(190, 190, 184); */
+ border-radius: 5px;
+border: 0.5px solid black;
 }
 
 @media (Max-width:800px) {
