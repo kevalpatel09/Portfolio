@@ -11,11 +11,14 @@ main{
     height: 60vh;
 }
 main .card{
-position: relative;
+    position: relative;
     width: 20em;
     margin : 0 auto;
     margin-top: 20px;
     padding: 1px;
+}
+main{
+    grid-template-columns: 500px 500px 500px;
 }
 
 .card img{
@@ -29,7 +32,7 @@ position: relative;
 }
 
 @media (max-width:1030px){
-    .card{
+    main .card{
         height: 60vh;
     }
 }
@@ -41,13 +44,15 @@ position: relative;
         margin: 10px;
         margin-top: 50px;
     }
-    .card{
+    main .card{
         margin-top: 150px;
+        width: 80%;
         height: 60vh;
     }
 }
 @media (max-width:500px) {
-    .card{
+    main .card{
         height: 60vh;
+        width: 80%;
     }
 }
